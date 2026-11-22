@@ -1,0 +1,14 @@
+{
+  "name": "momo-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Qrius Module 9 lab: scaling the Sajilo Momo test suite (starter)",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.10.0"
+  }
+}
